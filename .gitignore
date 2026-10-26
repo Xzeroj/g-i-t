@@ -1,0 +1,48 @@
+# ---- OS ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- Editors / IDE ----
+.idea/
+.vscode/
+.trae/
+*.suo
+*.swp
+*~
+
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Dependency caches ----
+node_modules/
+.pnpm-store/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+target/
+vendor/
+.packages/
+
+# ---- Build outputs ----
+dist/
+build/
+out/
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# ---- Test / coverage ----
+coverage/
+.coverage
+.nyc_output/
+*.tmp
+.cache/
